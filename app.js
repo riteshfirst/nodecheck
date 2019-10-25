@@ -11,10 +11,10 @@ app.use ('/', function(req, res )
    res.header("Access-Control-Allow-Origin", "*");
     // config for your database
 var config = {
-        user: 'testadm',
-        password: 'test',
-        server: 'testserver', 
-        database: 'testdb' 
+        user: 'ritesh',
+        password: 'ritesh123#',
+        server: 'rs-ssqlerver.database.windows.net', 
+        database: 'TestDB' 
     };
 	
 var q = url.parse(req.url, true).query;
